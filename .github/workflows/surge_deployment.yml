@@ -21,8 +21,9 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
+      
     - name: Install NodeJS
-    - uses: actions/setup-node@v2-beta
+      uses: actions/setup-node@v2-beta
       with:
           node-version: 12
     
