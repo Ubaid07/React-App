@@ -38,7 +38,7 @@ jobs:
       run: npm install -g surge
   
     - name: Deploy Surge
-      run: surge ./ reactapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ ubaidreactapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
    
    
  
